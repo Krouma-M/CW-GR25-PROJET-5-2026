@@ -1,6 +1,5 @@
 from ucimlrepo import fetch_ucirepo # pyright: ignore[reportMissingImports]
 import pandas as pd   # pyright: ignore[reportMissingModuleSource]
-
 # Télécharger le dataset
 dataset = fetch_ucirepo(id=938)
 
